@@ -1,7 +1,8 @@
 body 
 {
+    background:#1e1f24;
     color:#333;
-    text-align: left;
+    text-align: center;
     font-family: "Arial"; 
     font-size: 16px;
     margin: 0;
@@ -12,11 +13,20 @@ body
 
 #cabecera
 {
-    background: rgb(167, 43, 5);
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,00.75);
-    color: white;
+    background:#37488b;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color:#333;
+    font-weight: bold;
     margin: 0;
     padding: 0.5em;
+
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
+
 
 }
 
@@ -39,5 +49,10 @@ body
 #container h1
 {
 
-    font-size: 40px;
+    font-size: 20px;
+}
+#gool
+{
+    background: white;
+    padding: 1em;
 }
